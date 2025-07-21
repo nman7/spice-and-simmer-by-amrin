@@ -12,9 +12,9 @@ export const HeroSection = () => {
   };
 
   const stats = [
-    { icon: Users, value: "300+", label: "Events Catered" },
+    { icon: Users, value: "10+", label: "Events Catered" },
     { icon: Star, value: "5.0", label: "Customer Rating" },
-    { icon: Award, value: "10+", label: "Years Experience" }
+    { icon: Award, value: "10+", label: "Years in Cuisine" }
   ];
 
   return (
@@ -34,7 +34,8 @@ export const HeroSection = () => {
             className="mb-8"
           >
             <div className="w-32 h-32 md:w-40 md:h-40 mx-auto mb-6 bg-primary/10 rounded-full flex items-center justify-center shadow-warm">
-              <div className="text-4xl md:text-5xl">🥄</div>
+            <img src="/logo/logo.png" className="w-32 h-32 md:w-40 md:h-40 object-contain" />
+
             </div>
             <motion.h1
               initial={{ opacity: 0, y: 20 }}
@@ -66,7 +67,7 @@ export const HeroSection = () => {
               <span className="block text-primary">in Sydney</span>
             </h2>
             <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              Experience the rich flavors of traditional Pakistani and Indian cuisine, 
+              Experience the rich flavors of traditional Indian and Pakistani cuisine, 
               crafted with love and delivered with excellence for your special occasions.
             </p>
           </motion.div>
@@ -134,7 +135,7 @@ export const HeroSection = () => {
             <p className="text-muted-foreground">
               <span className="font-semibold text-primary">Now Available in Sydney</span>
               <br />
-              Premium catering for events up to 400 people
+              Premium bulk catering for all types of events
             </p>
           </motion.div>
         </div>
