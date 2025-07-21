@@ -64,11 +64,11 @@ export const ImageCarousel = () => {
           transition={{ duration: 0.6 }}
           className="text-center mb-12"
         >
-          <h2 className="text-3xl font-display font-semibold text-foreground mb-4">
-            Our Work
+          <h2 className="text-4xl font-display font-semibold text-foreground mb-4">
+            Our Catering Gallery
           </h2>
-          <p className="text-muted-foreground max-w-xl mx-auto">
-            Fresh ingredients, beautiful presentation, unforgettable taste
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+            A glimpse of our beautifully crafted dishes and professional catering presentations
           </p>
         </motion.div>
 

@@ -77,15 +77,15 @@ export const MenuShowcase = () => {
           transition={{ duration: 0.6 }}
           className="text-center mb-12"
         >
-          <h2 className="text-3xl font-display font-semibold text-foreground mb-4">
-            Our Menu
+          <h2 className="text-4xl font-display font-semibold text-foreground mb-4">
+            Our Signature Menu
           </h2>
-          <p className="text-muted-foreground max-w-xl mx-auto">
-            Traditional recipes, premium ingredients, authentic flavors
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+            Authentic Pakistani and Indian cuisine crafted with traditional recipes and premium ingredients
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {menuCategories.map((category, categoryIndex) => (
             <motion.div
               key={category.title}
@@ -93,12 +93,12 @@ export const MenuShowcase = () => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: categoryIndex * 0.1 }}
             >
-              <Card className="h-full hover:shadow-warm transition-all duration-300 border-primary/10 bg-card/50">
+              <Card className="h-full hover:shadow-warm transition-all duration-300 border-primary/10">
                 <CardContent className="p-6">
-                  <h3 className="text-lg font-display font-semibold text-primary mb-3">
+                  <h3 className="text-xl font-display font-semibold text-primary mb-4">
                     {category.title}
                   </h3>
-                  <ul className="space-y-1.5">
+                  <ul className="space-y-2">
                     {category.items.map((item, itemIndex) => (
                       <motion.li
                         key={item}
