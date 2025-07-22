@@ -25,58 +25,64 @@ const carouselImages = [
     src: one,
     alt: 'Indo-Chinese',
     title: 'Chicken Chilly',
-    description: 'Aromatic basmati rice with tender meat and traditional spices'
-  },{
+    description: 'Crispy fried chicken tossed in a spicy Indo-Chinese sauce with capsicum and onions'
+  },
+  {
     src: two,
     alt: 'Authentic Biryani Platter',
     title: 'Dabba Ghosth',
-    description: 'Aromatic basmati rice with tender meat and traditional spices'
-  },{
+    description: 'Rich and creamy mutton delicacy slow-cooked with spices for a soulful experience'
+  },
+  {
     src: three,
     alt: 'Authentic Biryani Platter',
     title: 'Spicy Arabic Mandi',
-    description: 'Aromatic basmati rice with tender meat and traditional spices'
-  },{
+    description: 'Fragrant rice served with tender meat, infused with Middle Eastern spices and flavors'
+  },
+  {
     src: five,
     alt: 'Authentic Biryani Platter',
     title: 'Signature Biryani',
-    description: 'Aromatic basmati rice with tender meat and traditional spices'
-  },{
+    description: 'Aromatic basmati rice layered with spiced meat, slow-cooked to perfection'
+  },
+  {
     src: six,
-    alt: 'Authentic Biryani Platter',
-    title: 'Client testimony',
-    description: 'Aromatic basmati rice with tender meat and traditional spices'
-  },{
+    alt: 'Client testimony',
+    title: 'Client Testimony',
+    description: 'Hear from our happy clients about their flavorful and memorable catering experience'
+  },
+  {
     src: seven,
-    alt: 'Authentic Biryani Platter',
+    alt: 'Premium Packaging',
     title: 'Premium Packaging',
-    description: 'Aromatic basmati rice with tender meat and traditional spices'
+    description: 'Sealed freshness with our elegant and hygienic food packaging for every order'
   },
   {
     src: biryaniPlatter,
     alt: 'Authentic Biryani Platter',
     title: 'Signature Biryani',
-    description: 'Aromatic basmati rice with tender meat and traditional spices'
+    description: 'Aromatic basmati rice layered with succulent meat and traditional Indian spices'
   },
   {
     src: currySpread,
     alt: 'Curry and Dishes Spread',
     title: 'Curry Collection',
-    description: 'A variety of rich, flavorful curries and traditional accompaniments'
+    description: 'A variety of rich, flavorful curries including butter chicken, korma, and more'
   },
   {
     src: appetizerPlatter,
     alt: 'Appetizer Platter',
     title: 'Starter Selection',
-    description: 'Crispy samosas, pakoras, and kebabs with house-made chutneys'
+    description: 'Crispy samosas, pakoras, and juicy kebabs served with house-made chutneys'
   },
   {
     src: dessertsDisplay,
     alt: 'Traditional Desserts',
     title: 'Sweet Delights',
-    description: 'Classic Indian sweets and desserts to complete your meal'
+    description: 'A selection of classic Indian desserts like gulab jamun, rasmalai, and more'
   }
-];
+]
+;
 
 export const ImageCarousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
