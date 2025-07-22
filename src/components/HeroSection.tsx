@@ -3,7 +3,7 @@ import { MessageCircle, Star, Users, Award } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 export const HeroSection = () => {
-  const whatsappNumber = "0431960180";
+  const whatsappNumber = "+61431960180";
   const whatsappMessage = "Hi! I'd like to inquire about your catering services.";
 
   const handleWhatsAppClick = () => {

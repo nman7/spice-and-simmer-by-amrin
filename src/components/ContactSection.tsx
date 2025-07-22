@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 
 export const ContactSection = () => {
-  const whatsappNumber = "0431960180";
+  const whatsappNumber = "+61431960180";
   const whatsappMessage = "Hi! I'd like to inquire about your catering services.";
 
   const handleWhatsAppClick = () => {
