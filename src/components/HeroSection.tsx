@@ -34,7 +34,7 @@ export const HeroSection = () => {
             className="mb-8"
           >
             <div className="w-32 h-32 md:w-40 md:h-40 mx-auto mb-6 bg-primary/10 rounded-full flex items-center justify-center shadow-warm">
-            <img src="public/logo/logo.png" className="w-32 h-32 md:w-40 md:h-40 object-contain" />
+            <img src="/logo/logo.png" className="w-32 h-32 md:w-40 md:h-40 object-contain" />
 
             </div>
             <motion.h1
