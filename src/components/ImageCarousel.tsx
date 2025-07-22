@@ -9,7 +9,49 @@ import currySpread from '@/assets/curry-spread.jpg';
 import appetizerPlatter from '@/assets/appetizer-platter.jpg';
 import dessertsDisplay from '@/assets/desserts-display.jpg';
 
+import one from '@/assets/1.jpeg';
+import two from '@/assets/2.jpeg';
+import three from '@/assets/3.jpeg';
+import four from '@/assets/4.jpeg';
+import five from '@/assets/5.jpeg';
+import six from '@/assets/6.jpeg';
+import seven from '@/assets/7.jpeg';
+
+
+
+
 const carouselImages = [
+  {
+    src: one,
+    alt: 'Indo-Chinese',
+    title: 'Chicken Chilly',
+    description: 'Aromatic basmati rice with tender meat and traditional spices'
+  },{
+    src: two,
+    alt: 'Authentic Biryani Platter',
+    title: 'Dabba Ghosth',
+    description: 'Aromatic basmati rice with tender meat and traditional spices'
+  },{
+    src: three,
+    alt: 'Authentic Biryani Platter',
+    title: 'Spicy Arabic Mandi',
+    description: 'Aromatic basmati rice with tender meat and traditional spices'
+  },{
+    src: five,
+    alt: 'Authentic Biryani Platter',
+    title: 'Signature Biryani',
+    description: 'Aromatic basmati rice with tender meat and traditional spices'
+  },{
+    src: six,
+    alt: 'Authentic Biryani Platter',
+    title: 'Client testimony',
+    description: 'Aromatic basmati rice with tender meat and traditional spices'
+  },{
+    src: seven,
+    alt: 'Authentic Biryani Platter',
+    title: 'Premium Packaging',
+    description: 'Aromatic basmati rice with tender meat and traditional spices'
+  },
   {
     src: biryaniPlatter,
     alt: 'Authentic Biryani Platter',
